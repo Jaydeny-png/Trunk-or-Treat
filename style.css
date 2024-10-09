@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    background-color: #1b1b1b;
+}
+
+#rizz {
+    background-image: url("images/Trunk+Or+Treat+-+Key+Art-01.jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 2px 4px rgba(255, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #f72525;
+}
+
+.nav-link.active {
+    color: #c781e2 !important;
+}
+
+#cool {
+    background-color: #15375c;
+}
+
+
+
+
+
+
+
+
+
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #8a7c7c;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(224, 217, 217);
+    transition: transform 0.3s ease;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.card-text {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+footer {
+    position: relative;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+footer p {
+    margin-bottom: 0;
+}
+
+
+.btn-outline-light {
+    color: #fff;
+    border-color: #fff;
+}
+
+
+.btn-outline-light:hover {
+    color: #343a40;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.content {
+    background-color: rgb(233, 0, 0);
+    padding: 20px;
+}
