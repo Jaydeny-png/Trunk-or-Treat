@@ -28,13 +28,25 @@ nav {
 }
 
 .nav-link {
-    font-size: 18px;
-    color: #f72525;
+    font-size: 20px; /* Increased font size */
+    color: #246cb9;
+    font-weight: bold; /* Makes the text bold */
+    padding: 10px 15px; /* Adds padding for better spacing */
+    transition: all 0.3s ease-in-out; /* Smooth transition on hover */
+    text-transform: uppercase; /* Capitalizes the text */
 }
 
 .nav-link.active {
-    color: #c781e2 !important;
+    color: #1a4d84 !important; /* Slightly darker shade to distinguish the active state */
 }
+
+.nav-link:hover {
+    background-color: #2275be; /* Adds a subtle background color on hover */
+    color: #1a4d84; /* Darker blue on hover */
+    border-radius: 5px; /* Rounds the edges for a modern look */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2); /* Adds a soft text shadow */
+}
+
 
 #cool {
     background-color: #15375c;
@@ -136,7 +148,39 @@ footer p {
 
 
 
-.content {
-    background-color: rgb(233, 0, 0);
-    padding: 20px;
+
+
+
+
+
+
+
+ /* Centering the header */
+ .section-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Styling the button */
+.more-info-btn {
+    background-color: #583d19;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.more-info-btn:hover {
+    background-color: #3f2c12;
+    ;
+}
+
+/* Event description styling */
+.event-description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
 }
