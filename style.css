@@ -43,25 +43,25 @@ body {
   
   
   .nav-link {
-    font-size: 20px; /* Increased font size */
+    font-size: 20px; 
     color: #246cb9;
-    font-weight: bold; /* Makes the text bold */
-    padding: 10px 15px; /* Adds padding for better spacing */
-    transition: all 0.3s ease-in-out; /* Smooth transition on hover */
-    text-transform: uppercase; /* Capitalizes the text */
+    font-weight: bold; 
+    padding: 10px 15px; 
+    transition: all 0.3s ease-in-out; 
+    text-transform: uppercase; 
   }
   
   
   .nav-link.active {
-    color: #1a4d84 !important; /* Slightly darker shade to distinguish the active state */
+    color: #1a4d84 !important; 
   }
   
   
   .nav-link:hover {
-    background-color: #2275be; /* Adds a subtle background color on hover */
-    color: #1a4d84; /* Darker blue on hover */
-    border-radius: 5px; /* Rounds the edges for a modern look */
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.2); /* Adds a soft text shadow */
+    background-color: #2275be; 
+    color: #1a4d84; 
+    border-radius: 5px; 
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2); 
   }
   
   
